@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: paleturquoise;
+}
+h1{
+    font-size: 50px;
+    font-family: cursive;
+    letter-spacing: 4px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    white-space: nowrap;
+}
+
+.btn{
+    padding: 30px 50px;
+    border: none;
+    background-color: aliceblue;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 30px;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+    background-image: url("images/tom.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: paleturquoise;
+}
+.btn:active{
+    background-size: 105%;
+}
+
+.con{
+    text-align: center;
+}
